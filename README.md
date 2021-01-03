@@ -7,3 +7,5 @@ A single-page, one-column resume for software developers using latex templates a
 ### License
 
 Format is MIT but all the data is owned by Ravi Ranjan.
+
+This template is based off of [Sourabh Bajaj's resume](https://github.com/sb2nov/resume) repo.
