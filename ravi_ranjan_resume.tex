@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Ravi Ranjan
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Ravi Ranjan} \\ \vspace{4pt}
+    \small {Contact: \underline{+91-8389057954}} $|$ \href{mailto:ranjanjharavi@gmail.com}{Email: \underline{ranjanjharavi}@gmail.com} $|$ $|$
+    \href{https://linkedin.com/in/ranjanjharavi}{Linkedin: \underline{ranjanjharavi}} $|$
+    \href{https://github.com/ranjanjharavi}{Github : \underline{ranjanjharavi}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\vspace{1pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Maulana Abul Kalam Azad University of Technology (Formerly WBUT)}{W.B, India}
+      {Bachelor of Technology in Computer Science and Engineering; \underline{GPA}: 7.58/10}{Aug. 2013 -- Jul. 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Advanced Computer Software Group Ltd.}{Mar. 2018 -- Present}
+      {Software Engineer}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{{\textbf{Docman 10} $|$ \emph{ C\texttt{\#}, ASP.NET MVC, JavaScript, MySQL, jQuery, Redis, React.js, AWS}}}
+        \resumeItemListStart
+            \resumeItem{Developed features and Rest API for multiple modules including 3rd party integration for the product.}
+            \resumeItem{Improved the response time by 40\% of the audit history by writing efficient stored procedures and algorithms.}
+            \resumeItem{Involved in the deployment of web services.}
+      \resumeItemListEnd
+      
+      \vspace{7pt}
+      
+        \resumeItem{{\textbf{CareSys} $|$ \emph{ C\texttt{\#}, VB.NET, MS-SQL, JavaScript, WinForms}}}
+        \resumeItemListStart
+            \resumeItem{Developed features to enforce the GDPR in the product and hence the NPS score of the product increased. }
+            \resumeItem{Fixed 86\% of bugs and existing defects for which received the spot award.}
+        \resumeItemListEnd
+        
+              \vspace{7pt}
+      
+        \resumeItem{{\textbf{Payana } $|$ \emph{ C\texttt{\#}, ASP.NET MVC, MS-SQL, JavaScript, React.js}}}
+        \resumeItemListStart
+            \resumeItem{Developed a full-stack web application during training period for travel request by an employee and approval by their line manager for different working location.}
+            \resumeItem{Developed UI and API endpoints for the Handwritten recognition applet part of Advanced hackathon.}
+        \resumeItemListEnd
+        
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Open Live Writer (.NET Foundation)} $|$ \emph{ C\texttt{\#}.NET, WinForms}}{Oct. 2019}
+          \resumeItemListStart
+            \resumeItem{Contributed to this Open Source WYSIWYG project by fixing 4 bugs part of Hacktoberfest.}
+            \resumeItem{Fixed embedding of Youtube URLs, keybindings problems with different windows.}
+            \resumeItem{Improved the layout during multiple images import}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Hostel Management System} $|$ \emph{C\texttt{\#}, ASP.NET MVC, JavaScript, MySQL}}{Dec. 2016 -- Mar. 2017}
+          \resumeItemListStart
+            \resumeItem{Developed student allocation system to allocate students based on multiple filters.} 
+            \resumeItem{Created student profiles and information about rooms, canteens, etc.}
+            \resumeItem{Created forums with polls where students can discuss interact.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Sub-Network Design} $|$ \emph{RHEL, LAMP Server, JavaScript }}{Jul. 2016}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a sub-network involving 46 computers, 2 virtual routers, 4 servers including Web, Mail, DNS and Samba, and created firewall rules.} 
+            \resumeItem{This network and website had facilities for user access according to the hierarchy of their positions in their company portfolio which could be accessed from the outside world.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------Certificates & Awards-----------
+
+\section{Certificates \& Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+ \item {
+    \resumeItemListStart
+         \resumeItem{Received Spot Award given quarterly to high performing individuals at Advanced.}
+         \resumeItem{Qualified Graduate Aptitude Test in Engineering (GATE) 2018.}
+         \resumeItem {Awarded certificate of achievement in Entrepreneurship week 2014 by National Entrepreneurship Network (NEN).}
+         \resumeItem { Awarded Certificate of completion with 95\% in “C++ for C Programmers - Part A” by Coursera.}
+     \resumeItemListEnd
+     }
+ \end{itemize}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C\texttt{\#}, JavaScript, C/C++, SQL, NoSQL, HTML/CSS.} \\
+     \textbf{Technologies}{: ASP.NET MVC, React, jQuery, AWS, Git, Firebase, JIRA.} \\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
